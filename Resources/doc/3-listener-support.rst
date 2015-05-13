@@ -63,7 +63,7 @@ For details see :doc:`Request Body Converter Listener <request_body_converter_li
 -------------------
 
 The Request format listener attempts to determine the best format for the
-request based on the Request's Accept-Header and the format priority
+for the request based on the HTTP Accept header and the format priority
 configuration. This way it becomes possible to leverage Accept-Headers to
 determine the request format, rather than a file extension (like foo.json).
 
